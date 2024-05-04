@@ -69,5 +69,20 @@ p   {
 
 .lancamentos    {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+
+.item-filmes    {
+    width: 160px;
+    height: 240px;
+    margin: 10px;
+}
+
+.button-filmes  {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
 }
