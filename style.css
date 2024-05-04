@@ -66,3 +66,8 @@ p   {
     background-color: red;
     box-shadow: 0px 0px 8px #ff00008f;
 }
+
+.lancamentos    {
+    display: grid;
+    grid-template-columns: auto;
+}
