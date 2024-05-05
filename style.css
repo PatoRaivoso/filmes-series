@@ -9,7 +9,7 @@ body    {
 }
 
 header  {
-    height: 60px;
+    height: 150px;
 }
 
 main    {
@@ -91,4 +91,10 @@ p   {
 }
 li  {
     color: white;
+}
+
+input   {
+    display: block;
+    margin: 60px auto 10px auto;
+    padding: 5px;
 }
