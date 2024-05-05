@@ -13,6 +13,8 @@ header  {
 }
 
 main    {
+    display: block;
+    margin: auto;
     max-width: 1280px;
     height: auto;
     padding: 10px;
@@ -57,7 +59,7 @@ a   {
 }
 .letras {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
 }
 .item-letras    {
     margin: 5px;
